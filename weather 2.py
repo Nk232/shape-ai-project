@@ -1,0 +1,6 @@
+x=open("weather.txt",'a')
+print(current temperature,file=x)
+print(current weather desc,file=x)
+print(current humidity,file=x)
+print(current wind speed,file=x)
+x.close()
